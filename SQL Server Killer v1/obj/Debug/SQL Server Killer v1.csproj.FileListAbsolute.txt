@@ -4,3 +4,9 @@ E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL Server Killer v1\bin\Debug\SQ
 E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.exe
 E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.pdb
 E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.csprojResolveAssemblyReference.cache
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\bin\Debug\SQL Server Killer v1.exe.config
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.exe
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.pdb
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\bin\Debug\SQL Server Killer v1.exe
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\bin\Debug\SQL Server Killer v1.pdb
+E:\rummykhan\VisualStudio\SQL Server Killer v1\SQL-Server-SA-Account-Brute-Forcer\SQL Server Killer v1\obj\Debug\SQL Server Killer v1.csprojResolveAssemblyReference.cache
