@@ -41,6 +41,7 @@ namespace SQL_Server_Killer_v1
                             {
                                 total -= skip;
                                 next = skip;
+                                //gkgkgj
                             }
                             else
                             {
