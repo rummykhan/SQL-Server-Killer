@@ -31,38 +31,26 @@ namespace SQL_Server_Killer_v1
                         GenericFunctions.logNotification("Total passwords loaded are : " + passwords.Count);
 
                         List<string> topFewPasswords = new List<string>();
-                        while (passwords.Count > 0)
+                        int total = passwords.Count;
+                        int skip = 5;
+                        while (total > 0)
                         {
-                            if (passwords.Count - 5 > 0)
+                            int next = total - skip;
+
+                            if (next >= 5 || total >= 5)
                             {
-                                topFewPasswords = passwords.GetRange(0, 5);
-                                passwords.RemoveRange(0, 5);
-                                startThreads(ip, topFewPasswords);
+                                total -= skip;
+                                next = skip;
                             }
-                            else if (passwords.Count - 4 > 0)
+                            else
                             {
-                                topFewPasswords = passwords.GetRange(0, 4);
-                                passwords.RemoveRange(0, 4);
-                                startThreads(ip, topFewPasswords);
+                                next = total;
+                                total -= next;
                             }
-                            else if (passwords.Count - 3 > 0)
-                            {
-                                topFewPasswords = passwords.GetRange(0, 3);
-                                passwords.RemoveRange(0, 3);
-                                startThreads(ip, topFewPasswords);
-                            }
-                            else if (passwords.Count - 2 > 0)
-                            {
-                                topFewPasswords = passwords.GetRange(0, 2);
-                                passwords.RemoveRange(0, 2);
-                                startThreads(ip, topFewPasswords);
-                            }
-                            else if (passwords.Count == 1)
-                            {
-                                topFewPasswords = passwords.GetRange(0, 1);
-                                passwords.RemoveRange(0, 1);
-                                startThreads(ip, topFewPasswords);
-                            }
+
+                            topFewPasswords = passwords.GetRange(0, next);
+                            passwords.RemoveRange(0, next);
+                            startThreads(ip, topFewPasswords);
                         }
                     }
                     else
